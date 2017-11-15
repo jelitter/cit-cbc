@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+th {
+    padding: 0.5em 1em;
+    background: var(--main);
+    color: white;
+    border-top-left-radius: 10px;
+}
+
+td {
+    /* background: rgba(220, 20, 60, 0.3); */
+    background: rgb(135, 206, 250);
+    padding: 0.5em 1em;
+}
+
+tr:nth-child(even) td {
+    background-color: rgba(135, 206, 250, 0.5);
+}
