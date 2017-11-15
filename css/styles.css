@@ -239,6 +239,7 @@ p {
     max-width: 800px;
 }
 
+#subscribe textarea,
 #subscribe input,
 #subscribe select {
     padding: 0.2em 0.5em;
