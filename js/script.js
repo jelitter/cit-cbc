@@ -81,6 +81,14 @@ function setColors(theme) {
             localStorage.setItem("cbc_colors", theme["name"]);
         }
     }
+
+    // Twitter feed background
+    if (theme == "dark") {
+        $("body").get(0).style.setProperty(k, theme[k]);
+    } else {
+
+    }
+
 }
 
 // Apply saved colors if they exist, or default ones ('crimson')
