@@ -64,9 +64,6 @@ li.section {
     height: 50%;
     padding: 0;
     align-items: center;
-    /* align-self: center;
-    align-content: center;
-    align-items: center; */
 }
 
 li.section a {
@@ -75,21 +72,12 @@ li.section a {
     text-decoration: none;
     border-top-left-radius: inherit;
     height: 100%;
-    /* border: solid 2px yellowgreen; */
     text-align: center;
 }
 
 li.section a div {
     align-self: center;
 }
-
-
-/* nav>ul>a>li {
-    list-style-type: none;
-    padding: 1em 2em;
-    border: solid 2px rgba(0, 0, 0, 0);
-    border-top-left-radius: 20px;
-} */
 
 li.section:hover {
     background: rgba(255, 255, 255, 0.25);
@@ -119,9 +107,15 @@ footer {
     transition: 1s;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+address { font-style: normal; }
+
 .article {
     padding: 1em 2em;
-    /* background: rgba(256, 256, 256, 0.9); */
     background: var(--article-bg);
     color: var(--article-fg);
     margin-bottom: 1em;
@@ -181,7 +175,6 @@ p {
 
 .special {
     font-weight: 500;
-    /* color: rgb(0, 150, 240); */
     color: var(--spec);
 }
 
