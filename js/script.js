@@ -5,7 +5,8 @@ const themes = {
         "--bg": "#506070",
         "--article-bg": "#607080",
         "--article-fg": "rgba(256, 256, 256, 0.75)",
-        "--h1": "rgba(256, 256, 256, 0.9)"
+        "--h1": "rgba(256, 256, 256, 0.9)",
+        "--spec": "rgba(256, 256, 256, 0.9)"
     },
     "darkolivegreen": {
         "name": "darkolivegreen",
@@ -13,7 +14,8 @@ const themes = {
         "--bg": "#f4f7ed",
         "--article-bg": "rgba(256, 256, 256, 0.9)",
         "--article-fg": "#444",
-        "--h1": "darkolivegreen"
+        "--h1": "darkolivegreen",
+        "--spec": "darkolivegreen"
     },
     "dodgerblue": {
         "name": "dodgerblue",
@@ -21,7 +23,8 @@ const themes = {
         "--bg": "#e6f2ff",
         "--article-bg": "rgba(256, 256, 256, 0.9)",
         "--article-fg": "#444",
-        "--h1": "dodgerblue"
+        "--h1": "dodgerblue",
+        "--spec": "dodgerblue"
     },
     "crimson": {
         "name": "crimson",
@@ -29,7 +32,8 @@ const themes = {
         "--bg": "#fde8ec",
         "--article-bg": "rgba(256, 256, 256, 0.9)",
         "--article-fg": "#444",
-        "--h1": "crimson"
+        "--h1": "crimson",
+        "--spec": "crimson"
     }
 }
 
